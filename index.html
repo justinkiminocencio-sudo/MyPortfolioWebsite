@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin's Portfolio</title>
+    <link rel="stylesheet" href="inocencio.css">
+</head>
+<body>
+    <!-- Login/Register Container -->
+    <div id="auth-container">
+        <div id="login-form" class="auth-form">
+            <h1>Login</h1>
+            <input type="text" id="login-username" placeholder="Username" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button id="login-btn">Login</button>
+            <p id="login-message"></p>
+            <p>Don't have an account? <a href="#" id="show-register">Register here</a></p>
+        </div>
+        
+        <div id="register-form" class="auth-form" style="display: none;">
+            <h1>Register</h1>
+            <input type="text" id="register-username" placeholder="Username" required>
+            <input type="password" id="register-password" placeholder="Password" required>
+            <input type="password" id="register-confirm-password" placeholder="Confirm Password" required>
+            <button id="register-btn">Register</button>
+            <p id="register-message"></p>
+            <p>Already have an account? <a href="#" id="show-login">Login here</a></p>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" style="display: none;">
+        <button id="exit-btn">Exit</button>
+
+        <h1>Welcome To Justin's First Website</h1>
+        <img src="583333737_122189292368340569_5838686563507867157_n.jpg" alt="MyPortfolioImage" class="profile-img">
+
+        <p>Hello! I am Justin Kim P. Inocencio, 18 years old. Know more about me!</p>
+
+        <h1>About Me</h1>
+        <ul>
+            <li>Full Name: Justin Kim P. Inocencio</li>
+            <li>Age: 18 years old</li>
+            <li>Birthday: March 10, 2007</li>
+            <li>Address: Purok-9, Calamba Cabadbaran City, Agusan Del Norte</li>
+            <li>Hobbies: Playing sports, Sleeping, Watching anime</li>
+            <li>Favorite Foods: Ginamos, Lechon, Adobo</li>
+        </ul>
+
+        <h2>Contact Info</h2>
+        <ul>
+            <li>Facebook: Justin Inocencio</li>
+            <li>Gmail: None yet</li>
+            <li>Phone Number: None yet</li>  
+        </ul>
+
+        <h2>Thank You For Visiting My Website!</h2>
+    </div>
+
+    <script src="inocencio.js"></script>
+</body>
+</html>
